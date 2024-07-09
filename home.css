@@ -1,0 +1,166 @@
+body{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.main{
+    background-image: url(images/clear.avif);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.left{
+     position: relative;
+    height: 99vh;
+    width: 26vw;
+    background-color:rgba(7, 7, 7, 0.3);
+    border: 2px solid rgb(22, 21, 21);
+    border-radius: 5px;
+    left: 1%;
+}
+.right{
+    position: relative;
+    height: 99vh;
+    width: 71vw;
+    background-color:rgba(7, 7, 7, 0.3);
+    border: 2px solid rgb(22, 21, 21);
+    border-radius: 5px;
+    left: 2%;
+}
+#inp{
+    height: 70px;
+    width: 23vw;
+    position:absolute;
+    top: 2%;
+    left: 2%;
+    background-color: rgba(185, 218, 229, 0.5);
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 30px;
+    /* border-bottom: 2px solid white; */
+}
+#btn{
+    position: absolute;
+    top: 4%;
+    right: 10%;
+    font-size: 33px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.left-temp{
+    position: absolute;
+    top: 12%;
+    display: flex;
+    left: 10%;
+    
+}
+.temparature{
+    font-size: 50px;
+    margin-top: 140px;
+}
+.left-temp img{
+    height: 50px;
+    width: 50px;
+   
+}
+.weather-box{
+    margin-left: 90px;
+    font-size: 27px;
+    margin-top: 100px;
+    /* border: 2px solid white; */
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+.weath{
+    /* margin-top: -1px; */
+    /* border: 2px solid white; */
+    /* width: 200px; */
+}
+.city{
+    position: absolute;
+    font-size: 40px;
+    width: 100%;
+    /* border: 2px solid white; */
+    text-align: center;
+    top: 10%;
+}
+.box{
+    height: 320px;
+    width: 350px;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(105, 102, 102);
+}
+.box h1{
+    width: 100%;
+    text-align: center;
+}
+.box li{
+    padding-top: 20px;
+    font-size: 23px;
+}
+.box li span{
+    margin-left: 10px;
+}
+.days{
+    position: absolute;
+    top: 45%;
+}
+.days img{
+    height: 50px;
+    width: 50px;
+}
+.day{
+    display: block;
+    width: 120px;
+    /* border: 2px solid white; */
+    text-align: center;
+}
+tr td{
+    /* border: 2px solid white; */
+    width: 500px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+}
+.right .below-right{
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    width: 60vw;
+    
+}
+.right .below-right img{
+    height: 70px;
+    width: 70px;
+}
+.per-day{
+    margin-top: 7%;
+    width: 180px;
+    /* border: 2px solid white; */
+    text-align: center;
+    font-size: 25px;
+        /* flex: 1; */
+         /* Adjust as needed */
+        
+  
+}
+.per-day p{
+position: relative;
+top: -3%;
+
+}
+.weather-container {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    /* border: 2px solid white; */
+    height: 300px;
+  }
